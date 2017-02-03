@@ -1,0 +1,22 @@
+.rake_test_cache
+
+###
+# Ignore Chef key files and secrets
+###
+.chef/*.pem
+.chef/encrypted_data_bag_secret
+.vagrant/*
+*.rpm
+*.box
+cookbooks/ihs/*.rpm
+cookbooks/wsi/*.rpm
+cookbooks/wsi/.vagrant
+cookbooks/wsi/*.box
+cookbooks/wsi/*.lock
+cookbooks/ihs/.vagrant
+cookbooks/ihs/*.box
+cookbooks/ihs/*.lock
+cookbooks/ihs/Vagrantfile
+cookbooks/ihs/files/default/*.kdb
+cookbooks/ihs/files/default/*.sth
+cookbooks/ihs/files/default/*.rdb
